@@ -6,11 +6,11 @@ import java.util.Date;
 
 public class Person {
 
-    private Long uid;
-    private String username;
+    private Long id;
+    private String name;
     private Date birthday;
 
     public void speak(String something) {
-        System.out.println(this.username + "say:" + something);
+        System.out.println(this.name + "say:" + something);
     }
 }
